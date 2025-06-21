@@ -1,13 +1,11 @@
-
 let estado = 'campo';
 let imgCampo, imgCidade, somCampo, somCidade;
 
 function preload() {
-imgCampo = loadImage('campo.jpg');
-imgCidade = loadImage('cidade.jpg');
-somCampo = loadSound('som_campo.mp3');
-somCidade = loadSound('som_cidade.mp3');
-
+  imgCampo = loadImage('campo.jpg');
+  imgCidade = loadImage('cidade.jpg');
+  somCampo = loadSound('som_campo.mp3');
+  somCidade = loadSound('som_cidade.mp3');
 }
 
 function setup() {
@@ -39,3 +37,5 @@ function keyPressed() {
     somCampo.loop();
   }
 }
+
+    
